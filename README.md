@@ -1,1 +1,1 @@
-# SEIR-907
+This is the place where you will be submitting your homework assignments as well as your projects. We also will be adding additional resources in here at times as well as using this as a place to slack out starter code etc.
