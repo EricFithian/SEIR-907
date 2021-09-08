@@ -1,11 +1,6 @@
-The first assignment is to solve as many of these challenges as you can:
-
-HW: Arrays, Loops, and Conditional Reps
+/* HW: Arrays, Loops, and Conditional Reps
 
 Type: Deliverable
-Creator: WDI-Funke
-Modified by: Kristyn Bryan and then by: Reuben Ayres
-Competencies: Arrays, Loops, Conditionals
 Language: JavaScript
 
 Setup
@@ -16,30 +11,41 @@ If you're stuck on something for "too long" or get overly frustrated, make a com
 After each section (even if you're not fully done with it), add and commit your work. Use the commit messages that you see at the end of each section. If you go back and fix a section, commit again with an updated message.
 When you are done with your homework, push up to your forked repo. (git push origin master). Create a pull request from your fork to la-seir-9-8/HW-Loops-Conditionals.
 Remember: the "Bonus" questions and the "Hungry for More" questions don't count against you, they're just extra questions if you wanna push beyond the baseline.
-Easy Going
-Write a for loop that will log the numbers 1 through 20.
+*/
+
+//Easy Going
+
+/*Write a for loop that will log the numbers 1 through 20.
 🔴 The commit message should read:
-"Commit 1 - Easy Going answered"
-Get Even
+"Commit 1 - Easy Going answered"*/
+
+
+/*Get Even
 Write a for loop that will log only the even numbers in 0 through 200.
 Hint: Think about the increment expression.
 🔴 The commit message should read:
-"Commit 2 - Get Even answered"
-Excited Kitten
+"Commit 2 - Get Even answered"*/
+
+
+/*Excited Kitten
 Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
 Hint: You will need to use Math.random()
 🔴 The commit message should read:
-"Commit 3 - Excited Kittens answered"
-Fizz Buzz
+"Commit 3 - Excited Kittens answered"*/
+
+
+/*Fizz Buzz
 NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
 Write a javascript application that logs all numbers from 1 - 100 AND:
 If a number is divisible by 3 log "Fizz" instead of the number.
 If a number is divisible by 5 log "Buzz" instead of the number.
 If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz".
 🔴 The commit message should read:
-"Commit 4 - Fizz Buzz answered"
-Getting to Know You
+"Commit 4 - Fizz Buzz answered"*/
+
+
+/*Getting to Know You
 Use the following arrays to answer the questions below (name, age, hometown):
 const kenny = ["Kenny", 1000, "Austin"];
 const jimHaff = ["Jim H", 16, "All cities"];
@@ -53,15 +59,19 @@ Reuben left Durham 5 years ago to come to Chicago. First, remove "Durham" from R
 Jim Haff could be literally anywhere in the world. Remove "All cities" from his array, then pick any 3 cities you like, and add them to Jim's array. If you did it in 3 lines of code that's fine, but see if you can do it in one line of code
 Bonus: Whoops! Jim Haff is actually only allowed to be in one of two cities. Whatever the first of the 3 cities for Jim Haff is now, remove it from the array using .splice()
 🔴 The commit message should read:
-"Commit 5 - Getting to Know You answered"
-Yell at the Ninja Turtles
+"Commit 5 - Getting to Know You answered"*/
+
+
+/*Yell at the Ninja Turtles
 Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 Use a for loop to call .toUpperCase() on each of them and print out the result.
 Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, make the letters alternate back and forth between uppercase and lowercase.
 🔴 The commit message should read:
-"Commit 6 - Yell at the Ninja Turtles answered"
-Return of the Closets
-Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript. Use this data to answer the following questions.
+"Commit 6 - Yell at the Ninja Turtles answered"*/
+
+
+//Return of the Closets
+//Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript. Use this data to answer the following questions.
 const kristynsCloset = [
   "left shoe",
   "cowboy boots",
@@ -92,28 +102,36 @@ const thomsCloset = [
     "raybans"
   ]
 ];
-Alien Attire
+
+
+/* Alien Attire
 Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
 Dress 'em Up
 Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
 🔴 The commit message should read:
-"Commit 7 - Kristyn and Thom have their outfits ready for class - array practice"
-Dirty Laundry
+"Commit 7 - Kristyn and Thom have their outfits ready for class - array practice"*/
+
+
+/*Dirty Laundry
 Continue looking at the closet arrays:
 Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
 Inventory
 Thom wants to do inventory on his closet. Using bracket notation, log the arrays (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
 🔴 The commit message should read:
-"Commit 8 - I loops through their closets".
-Multiples of 3 and 5
+"Commit 8 - I loops through their closets".*/
+
+
+/*Multiples of 3 and 5
 Yes, you might have tackled this earlier, but try it again (don't look back at your other code 👀)
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.
 👏 You just solved Project Euler problem 1! 👏
 Tip: Get used to thinking about how to solve problems now. Will help immensely with coding challenges, and get your coding brain muscles nice and flexed for the class. Make a habit of going to Project Euler and taking a crack at the problems
 🔴 The commit message should read:
-"Commit 9 - Project Euler Problem 1 answered"
-Hungry for more?
+"Commit 9 - Project Euler Problem 1 answered"*/
+
+
+/*Hungry for more?
 Triangles
 declare a variable argument and set it equal to 7.
 Write a loop that console logs a "left isosceles" triangle (SEE BELOW) made of '#' that has the height and length of argument.
@@ -158,8 +176,10 @@ Ex: argument is 7
 
 Change the value of argument and reload your code and marvel at how you just solved a challenging problem and feel proud of yourself.
 🔴 The commit message should read:
-"Commit 10 - Triangles answered"
-Find the Median
+"Commit 10 - Triangles answered"*/
+
+
+/*Find the Median
 Find the median number in the following nums array, then console.log that number.
 hint this will likely involve breaking down the problem into a few steps
 hint: Click "Details" below (don't read this unless you've been stuck for a while)
@@ -168,4 +188,4 @@ const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11
 Expected output:
 => 15
 🔴 The commit message should read:
-"Commit 11 - Find the Median answered"
+"Commit 11 - Find the Median answered"*/
